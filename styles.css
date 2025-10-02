@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #eee;
+}
+
+button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+#hoverText {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 150px;
+  user-select: none;
+}
+
+.faq-answer {
+  display: none;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.85em;
+  display: block;
+  height: 16px;
+}
+
+input.invalid {
+  border-color: red;
+}
+
+input.valid {
+  border-color: green;
+}
